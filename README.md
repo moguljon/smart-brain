@@ -1,2 +1,2 @@
 # smart-brain
-A smart brain the recognizes faces of images in photos that are imputed in the search bar. 
+A smart brain the recognizes faces of images in photos that are inputed in the search bar. 
