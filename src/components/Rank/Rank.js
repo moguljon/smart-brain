@@ -1,17 +1,17 @@
 import React from 'react';
 import './Rank.css';
 
-const Rank = () => {
+const Rank = ({ name, entries }) => {
   return(
     <div className='tc rank-container'>
       <div>
-        <p className='rank'>{`Jonathan...your current rank is.....`}</p>
+        <p className='rank'>{`${name}...your current rank is.....`}</p>
       </div>
       <div>
-        {`#5`}
+        {`${entries}`}
       </div>
     </div>
-  )
+  );
 }
 
 export default Rank;
